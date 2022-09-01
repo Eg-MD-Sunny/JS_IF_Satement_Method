@@ -65,9 +65,22 @@
 
 
 // Example #06 
-const x = true;
-let result = x === true ? 'Passed': 'Failed'
-document.write(result)
+// const x = true;
+// let result = x === true ? 'Passed': 'Failed'
+// document.write(result)
+
+
+// Example #07
+// const result = 0 > 5 ? 'Yes! The Value is grater than: 5': 'No! The Value is Less than: 5';
+// document.write(result)
+
+
+// Example #08
+function sum(a,b){
+    return a+b;
+}
+const result = sum(10,10)>1? sum(5,5):sum(1,1);
+document.write('The result is: ', result);
 
 
 
