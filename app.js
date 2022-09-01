@@ -50,22 +50,24 @@
 
 // Example #06 
 // [check if the number if positive, negative or zero]
-const userInput = prompt('Enter a number:')
-if(userInput>=0){
-    if(userInput==0){
-        document.write('Thia is Zero Value: ' + userInput)
-    }
-    else{
-        document.write('Thia is Positive Value: ' + userInput)
-    }
-}
-else{
-    document.write('Thia is Negative Value: ' + userInput)
-}
+// const userInput = prompt('Enter a number:')
+// if(userInput>=0){
+//     if(userInput==0){
+//         document.write('Thia is Zero Value: ' + userInput)
+//     }
+//     else{
+//         document.write('Thia is Positive Value: ' + userInput)
+//     }
+// }
+// else{
+//     document.write('Thia is Negative Value: ' + userInput)
+// }
 
 
-
-
+// Example #06 
+const x = true;
+let result = x === true ? 'Passed': 'Failed'
+document.write(result)
 
 
 
