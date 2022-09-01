@@ -1,4 +1,4 @@
-// Example #01
+ // Example #01
 // var value = 10;
 // if(value == 10)
 // console.log("You Entered:" + value);
@@ -15,7 +15,8 @@
 //     console.log('Yes');
 // }
 
-// Example #03
+// Example #03 
+//--------------------[if Statement]
 // var a = prompt('Enter Your Roll');
 // if(a==10){
 //     console.log("Naim");
@@ -23,18 +24,44 @@
 
 
 // Example #04
-const userInput = prompt('Enter a number: ')
-if(userInput>0){
-    document.write('This is Positive Value:' + " " + userInput)
+//--------------------[if...else statement]
+// const userInput = prompt('Enter a number: ')
+// if(userInput>0){
+//     document.write('This is Positive Value:' + " " + userInput)
+// }
+// else{
+//     document.write('This is Negative Value:2'+ " " + userInput)
+// }
+
+
+// Example #05 
+// [check if the number if positive, negative or zero]
+// const userInput = prompt('Enter a number:')
+// if(userInput>0){
+//     document.write('Thia is Positive Value: ' + userInput)
+// }
+// else if(userInput==0){
+//     document.write('Thia is Zero Value: ' + userInput)
+// }
+// else{
+//     document.write('Thia is Negative Value: ' + userInput)
+// }
+
+
+// Example #06 
+// [check if the number if positive, negative or zero]
+const userInput = prompt('Enter a number:')
+if(userInput>=0){
+    if(userInput==0){
+        document.write('Thia is Zero Value: ' + userInput)
+    }
+    else{
+        document.write('Thia is Positive Value: ' + userInput)
+    }
 }
 else{
-    document.write('This is Negative Value:2'+ " " + userInput)
+    document.write('Thia is Negative Value: ' + userInput)
 }
-
-
-// Example #05
-
-
 
 
 
