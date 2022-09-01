@@ -76,11 +76,31 @@
 
 
 // Example #08
-function sum(a,b){
-    return a+b;
-}
-const result = sum(10,10)>1? sum(5,5):sum(1,1);
-document.write('The result is: ', result);
+// function sum(a,b){
+//     return a+b;
+// }
+// const result = sum(10,10)>1? sum(5,5):sum(1,1);
+// document.write('The result is: ', result);
+
+
+// Example #09
+// const color = 'green';
+// const conditionalColor = `Color is ${color==='blue' ? 'blue-100' : 'red-100'}`;
+// document.write('The color is: ', conditionalColor);
+
+
+// Example #10
+// const result = [].length ? 'Contains Elements' : 'Is Empty'
+// document.write(result)
+
+
+// Example #10 [Nested Ternary]
+const result = 1 + 1 === 2? (2>0? 'yes': 'no'): 'idk';
+document.write(result)
+
+
+
+
 
 
 
